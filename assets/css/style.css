@@ -1,5 +1,8 @@
 
 header {
+  position: fixed;
+  top:0px;
+  left: 0px;
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
@@ -7,16 +10,20 @@ header {
   font-family: 'Georgia', Times, Times New Roman, serif;
   padding: 20px 0;
   width:100%;
+  clear: both;
 }
  body { 
   background-image: url("../../assets/images/cork-wallet.png");}
   /* background-color: hsl(0,0%,78%);}  */
 
 .name{
+  position: relative;
   color: white;
   font-size: 200%;
   background-color: #4aaaa5;
   float: left;  
+  left: 150px;
+  clear: both;
 }
 h1{
   background-color:white;
@@ -45,13 +52,16 @@ h2{
 }
 
 .main-section-content{
+  position: relative;
   background-color: white;
-  padding: 50px;
+  padding: 20px 50px;
   float: left;
   width: 550px;
   text-align: justify;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777; 
+  clear: both;
+  top: 120px;
 
 }
 
@@ -66,6 +76,9 @@ a{
   color: #777777;
 }
 .sidebar{
+  position: relative;
+  /* clear: both; */
+  top: 120px;
   padding: 30px;
   background-color: white;  
   float: right;
@@ -81,17 +94,18 @@ a{
 
 .copyright{
   border-top: 5px solid #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
   background-color: gray;
   height: 40px;
   color: white;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 }
 
-.logo{
-  img
-  width=180px;
-  length=180px;
-}
+
 /* background-color: 
 font-color: #777777
 
