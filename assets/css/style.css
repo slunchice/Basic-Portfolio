@@ -39,8 +39,9 @@ h2{
 }
 
 .main-section-content{
+  padding: 50px;
   float: left;
-  width: 650px;
+  width: 550px;
   text-align: justify;
 
 }
@@ -63,6 +64,12 @@ a{
 
 .copyright{
   text-align: center;
+}
+
+.logo{
+  img
+  width=200px;
+  length=200px;
 }
 /* background-color: 
 font-color: #777777
